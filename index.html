@@ -118,8 +118,11 @@
                     <div>
                     <h3>Email Newsletter</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <input type="email" name="email" id="email">
-                        <a href="#" class="btn btn-dark-red">Submit</a>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <input type="email" name="email" id="email" placeholder="Type Your Email">
+                        <textarea name="text-area" id="text-are" cols="24" rows="5" placeholder="Type Something to me"></textarea>
+                        <input class="btn btn-dark-red" type="submit" value="submit">
+                    </form>
                     </div>
                     <div>
                     <h3>Site Links</h3>

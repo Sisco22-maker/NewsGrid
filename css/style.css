@@ -164,7 +164,11 @@ p{
     text-align: center;
     padding: 0.5rem;
 }
-#main-footer .footer-container input[type="email"]{
+#main-footer .footer-container input{
     padding: 1rem;
     margin-bottom: 1rem;
+}
+#main-footer .footer-container textarea{
+    font-weight: bold;
+    color: var(--dark-gray);
 }

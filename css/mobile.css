@@ -72,6 +72,12 @@
     #article .meta{
         flex-direction: column;
     }
+    /* Text area at footer */
+    #main-footer .footer-container textarea,
+    #main-footer .footer-container input{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 
 }
 
